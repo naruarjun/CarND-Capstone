@@ -2,6 +2,7 @@
 Implement Traffic Light Detection, Waypoint updating, and Control so that the car is able to complete one lap of the track.
 
 ### Architecture overview
+![rqt_graph](rqt_graph.png)
 #### Waypoint Loader
 Loads the basic waypoints and publishes them on the topic `/base_aypoints`
 #### Waypoint Updater
