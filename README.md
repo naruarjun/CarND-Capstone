@@ -11,7 +11,7 @@ Updates the waypoints based on Traffic Light information (decelerate waypoints i
 This is the Drive-By-Wire and is used to send the final commands to the car. This computes the steering, throttle and brake using a PID controller and Yaw controller and a low-pass filter. These commands are then sent to the car.
 #### Tl_detector
 This node takes as input a image and localizes and classifies the traffic light. This is then used to update the waypoint speeds.
-### Styx Server
+#### Styx Server
 styx_server links the simulator and ROS by providing information about the car's state and surroundings.
 
 ### Traffic Light Detector
